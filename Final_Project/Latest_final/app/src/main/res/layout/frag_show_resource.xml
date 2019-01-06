@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/show_resource_main_rl"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackgroundGrey"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/colorBackgroundWhite"
+        android:orientation="vertical"
+        android:animateLayoutChanges="true"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/show_resource_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Title"
+            android:textColor="@color/colorHexSleep"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="10dp"
+            android:background="@color/colorHexSleep" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/show_resource_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Content Here\nContent Here\nContent Here\nContent Here\nContent Here\nContent Here\nContent Here\nContent Here\nContent Here\nContent Here\nContent Here"
+                android:textSize="18dp" />
+        </ScrollView>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/colorHexSleep" />
+
+        <TextView
+            android:visibility="gone"
+            android:id="@+id/show_resource_keywords"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="Keywords:"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="12dp" />
+
+        <TextView
+            android:visibility="gone"
+            android:id="@+id/show_resource_criteria"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="Criteria:"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="12dp" />
+
+        <LinearLayout
+            android:id="@+id/ll_res_menu_holder"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:animateLayoutChanges="true"
+            android:layout_marginTop="10dp"
+            android:gravity="right">
+
+            <RelativeLayout
+                android:id="@+id/buttom_menu_res_map_holder"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="right">
+
+                <LinearLayout
+                    android:id="@+id/map_btn"
+                    android:layout_width="40dp"
+                    android:layout_height="match_parent"
+                    android:onClick="handleClickToggleMapOrCalendar"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/ic_earth" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Map"
+                        android:textColor="@color/colorBottomMenuText"
+                        android:textSize="10dp" />
+                </LinearLayout>
+                <RelativeLayout
+                    android:id="@+id/buttom_menu_res_map"
+                    android:layout_width="40dp"
+                    android:layout_height="match_parent"
+                    android:background="#ffffff"
+                    android:alpha="0.75">
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/buttom_menu_res_calendar_holder"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="right">
+
+                <LinearLayout
+                    android:id="@+id/calendar_btn"
+                    android:layout_width="40dp"
+                    android:layout_height="match_parent"
+                    android:onClick="handleClickToggleMapOrCalendar"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/ic_calendar" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Calendar"
+                        android:textColor="@color/colorBottomMenuText"
+                        android:textSize="10dp" />
+                </LinearLayout>
+                <RelativeLayout
+                    android:id="@+id/buttom_menu_res_calendar"
+                    android:layout_width="40dp"
+                    android:layout_height="match_parent"
+                    android:background="#ffffff"
+                    android:alpha="0.75">
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/buttom_menu_res_collapse"
+                android:layout_width="30dp"
+                android:layout_height="match_parent"
+                android:onClick="handleClickCollapse"
+                android:visibility="gone"
+                android:src="@drawable/ic_up" />
+        </LinearLayout>
+
+        <FrameLayout
+            android:elevation="-1dp"
+            android:id="@+id/map_holder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:layout_marginTop="5dp">
+
+            <fragment
+                android:id="@+id/map"
+                class="com.journaldev.recyclerviewmultipleviewtype.MapFragment"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_alignParentBottom="true" />
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/calendar_holder"
+            android:visibility="gone"
+            android:gravity="center">
+            <LinearLayout
+                android:orientation="vertical"
+                android:elevation="-1dp"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp">
+                <LinearLayout
+                    android:layout_marginBottom="10dp"
+                    android:gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="25dp"
+                        android:layout_marginRight="10dp"
+                        android:src="@drawable/ic_location"/>
+                    <TextView
+                        android:id="@+id/show_resource_calander_title"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="18dp"
+                        android:text="Location"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="25dp"
+                        android:layout_marginRight="10dp"
+                        android:src="@drawable/ic_clock"/>
+                    <TextView
+                        android:id="@+id/show_resource_calander_date"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="18dp"
+                        android:text="2016/10/1 - 10:30"/>
+                </LinearLayout>
+            </LinearLayout>
+            <Button
+                android:padding="10dp"
+                android:id="@+id/calendar_add_btn"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Add to \nCalendar"
+                android:background="@color/colorHexSleep"
+                android:textColor="#ffffff"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

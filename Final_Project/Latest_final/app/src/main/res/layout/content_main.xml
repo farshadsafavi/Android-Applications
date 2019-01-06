@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".AlarmClock.StrategyAlarmActivity"
+    tools:showIn="@layout/strategy_main">
+
+    <TextView
+        android:textColor="@color/magnitude0"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:layout_marginBottom="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:background="@color/colorHexSleep"
+        android:text="Set the alarm clock!"
+        android:gravity="center"
+        android:id="@+id/alarmText" />
+
+    <ImageView
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:id="@+id/clock_image"
+        android:layout_below="@+id/alarmText"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/clock"
+        />
+
+    <TextView
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:layout_marginBottom="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/magnitude0"
+        android:textColor="#000"
+        android:text="Press To Set The Clock!"
+        android:gravity="center"
+        android:id="@+id/in_time_2" />
+
+    <Spinner
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/richard_spinner"
+        android:layout_below="@+id/in_time_2"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:background="@color/magnitude0"
+        android:entries="@array/sounds"
+        android:prompt="@string/country_prompt" />
+    <TextView
+        android:paddingTop="16dp"
+        android:paddingBottom="18dp"
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/in_time"
+        android:background="@color/magnitude0"
+        android:gravity="center"/>
+
+    <LinearLayout
+        android:layout_marginTop="8dp"
+        android:layout_below="@+id/in_time"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_height="match_parent">
+
+        <Button
+            android:textColor="@color/magnitude0"
+            android:layout_margin="8dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Set alarm"
+            android:id="@+id/start_alarm"
+            android:background="@color/colorHexSleep"
+            android:onClick="startTimer"/>
+
+        <Button
+            android:textColor="@color/magnitude0"
+            android:layout_margin="8dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Unset alarm"
+            android:background="@color/colorHexSleep"
+            android:id="@+id/stop_alarm"
+            android:onClick="cancelTimer"/>
+
+        <Button
+            android:textColor="@color/magnitude0"
+            android:layout_margin="8dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Back"
+            android:background="@color/colorHexSleep"
+            android:id="@+id/back"
+            android:onClick="Back"/>
+    </LinearLayout>
+
+</LinearLayout>

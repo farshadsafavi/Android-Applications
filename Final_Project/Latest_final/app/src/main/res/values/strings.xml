@@ -1,0 +1,137 @@
+<resources>
+    <string name="google_api_key"></string>
+
+    <string name="app_name">UofT and Me</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="location_array">
+        <item></item>
+        <item>43.659729:-79.396595:University of Toronto</item>
+        <item>43.659729:-79.396595:University of Toronto</item>
+        <item></item>
+        <item>43.663908:-79.394484:Hart House</item>
+        <item>43.659729:-79.396595:Spadina Ave.</item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>43.659729:-79.396595:University of Toronto</item>
+        <item>43.659729:-79.396595:University of Toronto</item>
+        <item>43.659729:-79.396595:Bahen Center</item>
+        <item>43.659729:-79.396595:Bahen Center</item>
+        <item></item>
+        <item></item>
+    </string-array>
+
+
+    <string-array name="date_array">
+        <item></item>
+        <item>2016/12/2/10/20</item>
+        <item>2016/12/2/10/20</item>
+        <item>2016/12/2/10/20</item>
+        <item></item>
+        <item>2016/12/2/10/20</item>
+        <item>2016/12/2/10/20</item>
+        <item>2016/12/2/10/20</item>
+        <item>2016/12/2/10/20</item>
+        <item>2016/12/2/10/20</item>
+        <item>2016/12/2/10/20</item>
+        <item></item>
+        <item>2016/12/2/10/20</item>
+        <item>2016/12/2/10/20</item>
+        <item>2016/12/2/10/20</item>
+    </string-array>
+
+
+
+    <string-array name="title_array">
+        <item>Cut the Caffeine!</item>
+        <item>Stick to a sleep schedule!</item>
+        <item>Relax before bed!</item>
+        <item>Avoid naps!</item>
+        <item>Exercise!</item>
+        <item>Change up your room! </item>
+        <item>Make sure your comfy! </item>
+        <item>Don’t watch the clock!</item>
+        <item>This is not Facebook time. </item>
+        <item>It’s alright for you to see other Apps. </item>
+        <item>Quit Smoking.</item>
+        <item>Try Earplugs! </item>
+        <item>Talk it out! </item>
+        <item>Try talking to a councilor on campus! </item>
+        <item>Try the Better Sleep Workshop!</item>
+    </string-array>
+
+    <string-array name="content_array">
+        <item>I know this will be tough, but really try to avoid getting afternoon caffeine fix. Don’t sacrifice your sleep! After all, if you start sleeping better, you won’t need caffeine. </item>
+        <item>Try to go to bed and wake up at the same time each day, weekends too if you can! </item>
+        <item>Avoid bright lights (yes, I mean televisions, laptops and phones) right before bed. Instead try reading, stretching, yoga, meditating etc., as it will help you sleep! </item>
+        <item>Even catnaps can take away from a good night’s rest. </item>
+        <item>Even light exercise can help you sleep. Plus, exercise is good for many other aspects of your health as well! Here’s a link for all the athletic centers covered through your tuition. Check out all their programs and activities! </item>
+        <item>Try to have a cool bedroom, that is quiet and dark. Consider black out curtains and/or earplugs (silicone earplugs will stay in over night).  </item>
+        <item>Replace mattresses over 10 years old if you can, and have fresh linens to avoid excess allergens.  </item>
+        <item>When I’m stressed about trying to get a good night’s sleep, the last thing that will bring me comfort is seeing how quickly the minutes are flying by. Avoid the stress, relax, and turn your alarm clock away from your view.</item>
+        <item>You don’t sleep with the lights on, why would your phone or laptop be any different? There’s nothing like shining a bright LCD light directly into your eyes to tell your brain it’s time to wake up. While this may be hard, do your best to avoid staring at TVs, computers, tablets or cell phones within an hour of going to bed.
+	(Science behind = Light emitted from these sources is blue light (400-480 nm) which suppresses melatonin and keeps you alert and awake. The more blue light exposure you have before bedtime, the longer it takes to fall asleep)
+. </item>
+        <item>We sincerely appreciate you being here with us, but we know there are many great apps. Consider scrolling through the AppStore through the many sleep apps and give them a try to see what works best for you. </item>
+        <item>Like caffeine, nicotine is a stimulant, and thus, could definitely be the reason for you tossing and turning at night. </item>
+        <item>Silicone earplugs work best (Can buy these from Shoppers Drug Mart), or perhaps sound cancelling headphones (the ones that play white noise).  </item>
+        <item>Many people feel uncomfortable talking to there roommates, but if you haven’t tried this yet it is definitely the simplest solution! </item>
+        <item>Whether it be a career councilor/person ! </item>
+        <item>This is a workshop offered to U of T students to help them sleep better. There are also mindfulness and other workshops offered. Click here www.studentlife.utoronto.ca</item>
+    </string-array>
+
+    <string-array name="keywords_array">
+        <item>Coffee, Caffeine, Tea</item>
+        <item>Schedule, Plan, Bedtime</item>
+        <item>Relaxation, Mindfulness</item>
+        <item>Nap, Rest</item>
+        <item>Exercise, Sport, Physical Activity, workout, Working out</item>
+        <item>Room, Tidy, Decoration, Bedroom</item>
+        <item>Bed, Linen, Bedroom, Mattress</item>
+        <item>Clock, Alarm</item>
+        <item>Social Media, Facebook, FB, Twitter, Snapchat </item>
+        <item>App Store, Google Play </item>
+        <item>Smoking, Nicotine</item>
+        <item>Earplugs, Sound, Audio</item>
+        <item>Talk, Roommate, Social</item>
+        <item>Councilor, Adviser</item>
+        <item>Better Sleep Workshop, Mindfulness</item>
+    </string-array>
+
+    <string-array name="criteria_array">
+        <item>anxious, general </item>
+        <item>busy, general, grad </item>
+        <item>anxious, general </item>
+        <item>anxious, general </item>
+        <item>anxious, midnight, busy, general, grad </item>
+        <item>midnight, general </item>
+        <item>midnight, general </item>
+        <item>anxious, midnight, general </item>
+        <item>anxious, midnight, busy, general </item>
+        <item>anxious, midnight, busy, general </item>
+        <item>anxious, midnight, busy, general</item>
+        <item>midnight, general, roommates </item>
+        <item>roommates </item>
+        <item>anxious, midnight, busy, general, roommates </item>
+        <item>anxious, midnight, busy, general, roommates </item>
+    </string-array>
+
+    <string-array name="sounds">
+        <item>Choose Alarm Option:</item>
+    </string-array>
+
+    <string name="country_prompt">Choose a country</string>
+
+    <string name="number_picker_formatter">%02d</string>
+
+    <string name="roboto_regular">sans-serif</string>
+    <string name="roboto_light">sans-serif-light</string>
+    <string name="roboto_condensed">sans-serif-condensed</string>
+    <string name="roboto_thin">sans-serif-thin</string>
+    <string name="roboto_medium">sans-serif-medium</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

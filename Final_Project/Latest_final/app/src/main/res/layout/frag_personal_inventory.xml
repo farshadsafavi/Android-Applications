@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackgroundGrey">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@color/colorBackgroundWhite"
+            android:elevation="5dp"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Campus"
+                android:textColor="#ff000000"
+                android:textSize="22dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginBottom="7dp"
+                android:layout_marginTop="2dp"
+                android:background="@color/colorBackgroundGrey" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:checked="true"
+                    android:id="@+id/campus_st_george"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="St. George"
+                    android:textSize="18dp" />
+
+                <RadioButton
+                    android:id="@+id/campus_mississauga"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mississauga"
+                    android:textSize="18dp" />
+
+                <RadioButton
+                    android:id="@+id/campus_scarborough"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Scarborough"
+                    android:textSize="18dp" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@color/colorBackgroundWhite"
+            android:elevation="5dp"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="University Affiliation"
+                android:textColor="#ff000000"
+                android:textSize="22dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginBottom="7dp"
+                android:layout_marginTop="2dp"
+                android:background="@color/colorBackgroundGrey" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/affiliation_undergrad"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Undergraduate Student"
+                    android:textSize="18dp" />
+
+                <RadioButton
+                    android:checked="true"
+                    android:id="@+id/affiliation_grad"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Graduate Student"
+                    android:textSize="18dp" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@color/colorBackgroundWhite"
+            android:elevation="5dp"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Living"
+                android:textColor="#ff000000"
+                android:textSize="22dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginBottom="7dp"
+                android:layout_marginTop="2dp"
+                android:background="@color/colorBackgroundGrey" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/live_home"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Home"
+                    android:textSize="18dp" />
+
+                <RadioButton
+                    android:id="@+id/live_residence"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Student Residence"
+                    android:textSize="18dp" />
+
+                <RadioButton
+                    android:checked="true"
+                    android:id="@+id/live_housing"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Off Campus Housing"
+                    android:textSize="18dp" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@color/colorBackgroundWhite"
+            android:elevation="5dp"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <CheckBox
+                android:id="@+id/is_accessibility"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="I Have Accessibility issues"
+                android:textSize="18dp" />
+
+            <CheckBox
+                android:checked="true"
+                android:id="@+id/is_international"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="I am an International Student"
+                android:textSize="18dp" />
+
+            <CheckBox
+                android:id="@+id/is_lgbtq"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="I am a part of LGBTQ Community"
+                android:textSize="18dp" />
+
+
+            <CheckBox
+                android:id="@+id/is_child"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="I Have Children"
+                android:textSize="18dp" />
+        </LinearLayout>
+        <Button
+            android:id="@+id/personal_inventory_save"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:text="Save"/>
+    </LinearLayout>
+</ScrollView>

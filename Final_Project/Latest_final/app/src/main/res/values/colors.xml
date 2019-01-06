@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ffeeeeee</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="transparent">#00ffffff</color>
+    <color name="colorLightText">#ffffffff</color>
+
+    <color name="colorBottomMenuText">#ff000000</color>
+    <color name="colorBottomMenuBG">#ffeeeeee</color>
+    <color name="colorBottomMenuActiveIcon">#00eeeeee</color>
+    <color name="colorBottomMenuNotActiveIcon">#aaeeeeee</color>
+
+    <color name="colorBackgroundGrey">#ffeeeeee</color>
+    <color name="colorBackgroundWhite">#ffffffff</color>
+
+    <color name="colorHexAcdemics">#ff002a5c</color>
+    <color name="colorHexActivity">#fffaa61a</color>
+    <color name="colorHexMood">#ffb7b71f</color>
+    <color name="colorHexNetwork">#fff26641</color>
+    <color name="colorHexFood">#ff5aae41</color>
+    <color name="colorHexSleep">#ff00acd4</color>
+
+    <color name="magnitude0">#E3F2FD</color>
+    <color name="magnitude1">#90CAF9</color>
+    <color name="magnitude2">#64B5F6</color>
+    <color name="magnitude3">#90CAF9</color>
+    <color name="magnitude4">#42A5F5</color>
+    <color name="magnitude5">#2196F3</color>
+    <color name="magnitude6">#1E88E5</color>
+    <color name="magnitude7">#1976D2</color>
+    <color name="magnitude8">#0277BD</color>
+    <color name="magnitude9">#1565C0</color>
+    <color name="magnitude10plus">#1A237E</color>
+    <color name="textColorEarthquakeDetails">#B4BAC0</color>
+    <color name="textColorEarthquakeLocation">#2B3D4D</color>
+</resources>

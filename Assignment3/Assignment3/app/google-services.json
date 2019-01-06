@@ -1,0 +1,104 @@
+{
+  "project_info": {
+    "project_number": "1007636059330",
+    "firebase_url": "https://imagestorage-1b113.firebaseio.com",
+    "project_id": "imagestorage-1b113",
+    "storage_bucket": "imagestorage-1b113.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1007636059330:android:e4519fe4996ec218",
+        "android_client_info": {
+          "package_name": "com.example.ln_202.firebasestorage"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1007636059330-kegmo4a9k63vo4t8ltk632tintekoibb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBOoOqIyegrTtKqI4W4_jQSE5i9GYWplB8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1007636059330:android:c81d06017d52844e",
+        "android_client_info": {
+          "package_name": "com.example.farshad.firebase_upload"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1007636059330-kegmo4a9k63vo4t8ltk632tintekoibb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBOoOqIyegrTtKqI4W4_jQSE5i9GYWplB8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1007636059330:android:236bfa179125f8e8",
+        "android_client_info": {
+          "package_name": "com.example.farshad.gridviewasynch"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1007636059330-kegmo4a9k63vo4t8ltk632tintekoibb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBOoOqIyegrTtKqI4W4_jQSE5i9GYWplB8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
