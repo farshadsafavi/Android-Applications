@@ -1,5 +1,5 @@
 # ECE 1778 - Creative Applications for Mobile Devices
-This is my work primarily to complete a project-based course in which the goal is to produce a working software application prototype by the end of course.
+This is my work primarily to complete a project-based course _ECE1778_ in which the goal is to produce a working software application prototype by the end of course.
 To see complete explanation about the course please refer to the following link:
 http://www.eecg.utoronto.ca/~jayar/ece1778/assignments.html
 
@@ -27,5 +27,5 @@ http://www.eecg.utoronto.ca/~jayar/ece1778.2016f/uoftandme.pdf
 https://www.youtube.com/watch?v=4aHtGtYeYUc
 
 ## Install
-The final project is evolved into UniWell android application to track daily habits of students. It is free to install from google play store:
+The final project is evolved into **UniWell** android application to track daily habits of students. It is free to install from google play store:
 https://play.google.com/store/apps/details?id=com.journaldev.dailyselfcare
