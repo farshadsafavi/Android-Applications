@@ -9,6 +9,7 @@ All programming assignments in this course are targeted to the Android mobile ph
 - Assignment2: Containers, Fragments, Select, Lists and Files
 - Assignment3: Mobile App Backends, Images, and Location
 - Assignment4: Threads, Local Databases and Face Detection
+
 The requirments and explanation for all assignments are available inside the folders for each assignment in pdf format.
 
 ## Issues
@@ -20,6 +21,7 @@ Our final project is a mobile application named UofT&Me. “U of T & Me” app i
 
 ## Link to the final report
 Please refer to following link to see complete report:
+
 http://www.eecg.utoronto.ca/~jayar/ece1778.2016f/uoftandme.pdf
 
 ## Link to the final project presentation:
@@ -27,4 +29,5 @@ https://www.youtube.com/watch?v=4aHtGtYeYUc
 
 ## Evolution
 The final project is evolved into UniWell android application to track daily habits of students. It is free to install from google play store:
+
 https://play.google.com/store/apps/details?id=com.journaldev.dailyselfcare
