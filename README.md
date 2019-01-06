@@ -1,5 +1,5 @@
 # ECE 1778 - Creative Applications for Mobile Devices
-This is my work primarily to complete a project-based course '_ECE1778_' in which the goal is to produce a working software application prototype by the end of course.
+This is my work primarily to complete a project-based course _ECE1778_ in which the goal is to produce a working software application prototype by the end of course.
 To see complete explanation about the course please refer to the following link:
 http://www.eecg.utoronto.ca/~jayar/ece1778/assignments.html
 
