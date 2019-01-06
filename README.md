@@ -21,7 +21,6 @@ Our final project is a mobile application named UofT&Me. “U of T & Me” app i
 
 ## Link to the final report
 Please refer to following link to see complete report:
-
 http://www.eecg.utoronto.ca/~jayar/ece1778.2016f/uoftandme.pdf
 
 ## Link to the final project presentation:
@@ -29,5 +28,4 @@ https://www.youtube.com/watch?v=4aHtGtYeYUc
 
 ## Evolution
 The final project is evolved into UniWell android application to track daily habits of students. It is free to install from google play store:
-
 https://play.google.com/store/apps/details?id=com.journaldev.dailyselfcare
