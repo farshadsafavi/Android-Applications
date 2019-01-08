@@ -13,7 +13,7 @@ All programming assignments in this course are targeted to the Android mobile ph
 The requirments and explanation for all assignments are available inside the folders for each assignment in pdf format.
 
 ## Issues
-I tried to complete all assignments and all assignments passes basic requirements. However there are potentials to improve the above submitted assignments.
+It is my first attempt for android development and I complete all assignments. All assignments pass test for basic requirements. However there are potentials to improve the above submitted assignments.
  
 
 ## Final project
